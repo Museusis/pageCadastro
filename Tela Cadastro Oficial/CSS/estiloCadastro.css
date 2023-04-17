@@ -1,0 +1,122 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+body {
+    margin: 0;
+     /*Se quiser comentar a cor, para camuflar o fundo branco da imagem*/
+}
+
+/* Começo do cabeçalho */
+.logo{
+    /* height: 180px; */
+    /* display: flex;
+    align-items: center;    
+    justify-content: center; */
+}
+.header {
+    display: flex;
+    border-bottom: 3px solid #ff7417;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* height: 120px; */
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+ul {
+    color: #e3b062;
+}
+
+a {
+    color: #030303;
+    text-decoration: none;
+}
+
+.titulo {
+    color: #32b9cd;
+    width: fit-content;
+    font-weight: 500;
+}
+
+.navBar {
+    width: 300px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: blueviolet;
+    
+}
+
+/* Fim do cabeçalho */
+
+/* Começo do Banner */
+
+.banner {
+  
+    height: 300px;
+    
+    display: flex;
+    
+   
+}
+
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container {
+    font-size: 36px;
+    justify-content: center;
+}
+
+.banner .container p {
+    width: 30%;
+}
+
+/* Fim do banner */
+
+/* Começo do Social */
+.social {
+    background-color: beige;
+    display: flex;
+}
+
+.box img {
+    width: 170px;
+}
+
+.social .container .boxes {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social p {
+    text-align: center;
+}
+
+/* Final do Social */
