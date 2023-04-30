@@ -231,7 +231,7 @@ input {
 
 /* PAGINA DOS GRÁFICOS */
 
-.janela {
+.pagina {
   display: flex;
   width: 100vw;
 }
