@@ -9,11 +9,11 @@ body {
   justify-content: center;
 }
 
+
 .dash-right .avisos {
   width: 100%;
-  /* border: 3px solid pink; */
-  color: rgb(216, 216, 216);
-  font-family: "Exo 2", sans-serif;
+  border: 3px solid #7d2c7d;
+  color: black;
 }
 
 .dash-right .avisos .container {
@@ -42,21 +42,20 @@ body {
 .dash-right .avisos .div-form textarea {
   width: 100%;
   /* color: #E6005A; */
-  border: 3px solid #e6005a;
+  border: 3px solid #9966cc;
   background-color: white;
   border-radius: 5px;
 }
 
 .dash-right .avisos .div-form button {
   cursor: pointer;
-  font-family: "Exo 2", sans-serif;
   border: 0;
   border-radius: 5px;
   font-weight: 600;
   font-size: 18px;
   padding: 10px 15px;
-  color: white;
-  background-color: #e6005a;
+  color: black;
+  background-color: #7d2c7d;
   width: 120px;
 }
 
@@ -315,7 +314,9 @@ li{
     align-items: center;
 }
 
-span{}
+a{
+    text-decoration: none;
+}
 
 span#ativo{
     display: flex;
